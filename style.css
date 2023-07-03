@@ -1,0 +1,118 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+body{
+  background-image: linear-gradient(to bottom, #0d47a1, #1565c0);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  padding: 25px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin: 0;
+}
+
+img{
+box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+h1{
+  font-size: 65px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #002080, #70a1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation: fade-in 1.5s ease-in-out forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+p{
+  font-size: 24px;
+  color: #ced7fe;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 30px;
+  line-height: 1.6;
+  text-align: justify;
+  padding: 0.20%;
+}
+
+.social-icons {
+display: flex;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.social-icons i {
+margin-right: 10px;
+font-size: 24px;
+}
+
+body {
+  background-image: url('img/2920341.jpg');
+  background-size: cover;
+  font-family: 'MadeInfinity', sans-serif; 
+
+}
+
+@font-face {
+  font-family: 'MadeInfinity';
+  src: url('fonts/MADEINFINITY\ PERSONALUSE-Regular.otf') format('truetype');
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #100055;
+  transition: background-color 0.3 ease;
+}
+
+th {
+  background-color: #100055;
+}
+
+tr:hover {
+  background-color: rgba(16, 0, 85, 0.7);
+}
+
+tr:hover td {
+  background-color: rgba(16, 0, 85, 0.7);
+}
+
+h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  background: linear-gradient(to right, #002080, #70a1ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0;
+  animation: fade-in 1.5s ease-in-out forwards;
+}
